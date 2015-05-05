@@ -1,0 +1,35 @@
+@media all and (max-width: 600px){
+    nav {
+        background-color: mediumpurple;
+        color: white;
+        padding: 1em;
+    }
+
+    .clearfix::after {
+        content: '';
+        display: block;
+        float: none;
+        clear: both;
+    }
+
+    .brand {
+        font-size: 1.2em;
+        line-height: 1.2em;
+    }
+    div, a.nav-collapse {
+        display: inline-block;
+    }
+
+    a.nav-collapse{
+        float:right;
+        padding:0;
+        margin:0;
+    }
+
+    nav ul {
+        display: none;
+
+        padding: 1em;
+        margin: 0;
+    }
+}
